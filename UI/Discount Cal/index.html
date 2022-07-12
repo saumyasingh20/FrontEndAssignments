@@ -5,21 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discount Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <label for="amt">Enter Purchase Amount</label>
-    <input type="number" name="amt" id="amt" > <br>
+    <h1 style="text-align: center;">Bill Calculator</h1>
+    <table>
+    <tr>
+        <td>
+             <label for="amt" >Purchase Amount</label>
+        </td>
+        <td>
+            <input type="number" name="amt" id="amt" > 
+        </td>
+    </tr>
+    </table>
+    <input type="button" value="Calculate" id = "calBtn"onclick="calculateDiscount()"> <br>
+    <table>
+        <tr>
+            <td>
+                <label for="disc">Discount</label>
+            </td>
+            <td>
+                <input type="number" name="disc" id="disc" readonly disabled > 
+            </td>
+        </tr>
 
-    <input type="button" value="Calculate" onclick="calculateDiscount()">
+        <tr>
+            <td>
+                <label for="pay">Net Pay</label>
+            </td>
+            <td>
+                <input type="number" name="pay" id="pay" readonly disabled >
+            </td>
+        </tr>
 
-    <label for="disc">Discount</label>
-    <input type="number" name="disc" id="disc" readonly disabled > <br>
-
-    <label for="pay">Net Pay</label>
-    <input type="number" name="pay" id="pay" readonly disabled > <br>
-
-    <label for="savings">Savings Percentage</label>
-    <input type="number" name="savings" id="savings" readonly disabled> <br>
+        <tr>
+            <td>
+                <label for="savings">Savings Percentage</label>
+            </td>
+            <td>
+                <input type="number" name="savings" id="savings" readonly disabled> 
+            </td>
+        </tr> 
+   
+    </table>
     <script src="script.js"></script>
 
 

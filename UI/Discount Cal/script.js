@@ -5,7 +5,7 @@ function calculateDiscount(){
         discPercent = 10;
     }else if(amt>10000 && amt<=20000){
         discPercent = 20;
-    }else {
+    }else if(amt>20000) {
         discPercent = 25;
     }
     discount = (discPercent/100)*amt;

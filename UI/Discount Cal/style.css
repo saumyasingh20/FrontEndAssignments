@@ -1,0 +1,20 @@
+body{
+    margin-left: 25%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+    margin-left: 25%;
+    margin-top: 2%;
+}
+#calBtn{
+    margin-left: 35%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 25%;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: medium;
+}
+label{
+    font-weight: 600;
+}
