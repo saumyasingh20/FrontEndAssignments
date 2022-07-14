@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="getComments()">
+    <input type="number" name="postId" id="postId" placeholder="Enter post id">
+    <input type="text" name="name" id="name" placeholder="Enter user name">
+    
+    <input type="email" name="email" id="email" placeholder="Enter user email">
+    <input type="text" name="body" id="body" placeholder="Enter comment body">
+
+    <input type="button" value="Add Comments" onclick="addComments()">
+    
+    <input type="button" value="Display Comments" onclick="displayComments()">
+
+    <input type="button" value="Update Comment" onclick="updateComment()" id = "update-btn"> <br>
+   
+    <input type = "text" name = "id" id = "id" readonly> <br>
+    <table id = "display"></table>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>

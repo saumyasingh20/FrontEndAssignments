@@ -1,0 +1,13 @@
+#display{
+    margin-left:5%;
+    margin-right: 2%;
+    width: 70%;
+}
+#update-btn{
+    visibility:hidden;
+}
+
+#id{
+    visibility: hidden;
+    
+}
